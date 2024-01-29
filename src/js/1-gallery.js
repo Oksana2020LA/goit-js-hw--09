@@ -81,7 +81,9 @@ function galleryTemplate(images) {
     />
   </a>
 </li>`
-  }).join("\n\n");
+  })
+  // .join("\n\n");
+  .join('');
   container.innerHTML = result;
 }
 
@@ -96,4 +98,4 @@ const options = {
   captionDelay: 250,
 };
 const lightbox = new SimpleLightbox('.gallery a', options);
-lightbox.on('show.simplelightbox');
+// lightbox.on('show.simplelightbox');

@@ -1,4 +1,4 @@
-const storageKey = '"feedback-form-state"'
+const storageKey = 'feedback-form-state'
 const message = document.querySelector('textarea');
 const form = document.querySelector('.feedback-form');
 
